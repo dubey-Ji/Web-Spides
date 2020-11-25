@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* General */
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+    background-color: #2f2e41;
+}
+
+nav {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navmenu {
+    display: flex;
+}
+
+#brandlogo {
+    display: flex;
+    align-items: center;
+}
+
+#navmenu li {
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+#navmenu li:hover {
+    background-color: #171720;
+}
+
+.header {
+    background-image: url(./image/profilebackground.png);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hobbyInfo, .interest {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hobbyImg, .interestImg {
+    max-width: 40%;
+}
+
+.hobbyImg img, .interest img {
+    max-width: 100%;
+}
+
+.hobbyText {
+    text-align: center;
+    min-width: 40%;
+    margin-top: 2rem;
+}
+
+.hobbyText h2 {
+    margin-bottom: 2rem;
+}
+
+.hobbyText li {
+    border: 1px solid violet;
+    margin: 1rem 0;
+    background-color: thistle;
+    padding: 1rem;
+}
+
+.interestText {
+    max-width: 40%;
+    padding-top: 8rem;
+}
+.interestText h2 {
+    padding: 1rem 0;
+}
+.interestText p {
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: thistle;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer h4 {
+    padding: 0.8rem 0;
+}
