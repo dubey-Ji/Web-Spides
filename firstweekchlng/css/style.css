@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#todo {
+    max-width: 30%;
+    margin: 10rem auto;
+    background-color: cornflowerblue;
+    box-shadow: 5px 5px 10px gray;
+}
+
+#todoinfo {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 2rem 2rem;
+}
+
+#formTodo {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+#formTodo input {
+    display: block;
+    margin: 1rem auto;
+    padding: 1em;
+    width: 100%;
+}
+
+input[type=button] {
+    background-color: rgb(34, 240, 144);
+    border: 0;
+    font-weight: 700;
+}
+
+#btn {
+    padding: 0.8em;
+    width: 40%;
+}
